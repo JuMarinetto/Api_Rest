@@ -16,14 +16,14 @@ public class Categorias {
 	private Long id;
 	
 	@NotBlank
-	private String tituloCategotia;
+	private String titulo_categoria;
 	
 	public Categorias() {
 		
 	}
 	
-	public Categorias(String tituloCategotia) {
-		this.tituloCategotia = tituloCategotia;
+	public Categorias(String titulo_categoria) {
+		this.titulo_categoria = titulo_categoria;
 	}
 
 	public Long getId() {
@@ -34,12 +34,14 @@ public class Categorias {
 		this.id = id;
 	}
 
-	public String getTituloCategotia() {
-		return tituloCategotia;
+	public String getTitulo_categoria() {
+		return titulo_categoria;
 	}
 
-	public void setTituloCategotia(String tituloCategotia) {
-		this.tituloCategotia = tituloCategotia;
+	public void setTitulo_categoria(String titulo_categoria) {
+		this.titulo_categoria = titulo_categoria;
 	}
+
+	
 	
 }
