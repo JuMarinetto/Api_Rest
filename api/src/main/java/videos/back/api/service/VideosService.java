@@ -41,4 +41,12 @@ public class VideosService {
 	public Videos getById(Long id) {
 		return repository.findById(id).orElseThrow(() -> new RuntimeException("Video não encontrado" + id)); 
 	}
+	
+	public List<Videos> getVideosByCategoria(Long categoria_id){
+		return repository.findByCategoriaId(categoria_id);
+	}
+
+	public List<Videos> searchByTitle(String titulo) {
+	    return repository.findByTituloContainingIgnoreCase(titulo);
+	}
 }

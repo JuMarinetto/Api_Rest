@@ -38,7 +38,7 @@ public class CategoriasController {
 	
 	@GetMapping("{id}")
 	public ResponseEntity<Categorias> getCategoriaById(@PathVariable Long id){
-		Categorias categorias = service.getCategoriaById(id);
+		Categorias categorias = service.findCategoriaById(id);
 		return ResponseEntity.ok(categorias);
 	}
 	

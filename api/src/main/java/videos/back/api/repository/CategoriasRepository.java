@@ -6,4 +6,6 @@ import videos.back.api.entity.Categorias;
 
 public interface CategoriasRepository extends JpaRepository<Categorias, Long>{
 
+
+	
 }
