@@ -1,7 +1,10 @@
 package videos.back.api.service;
 
+import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
@@ -49,4 +52,15 @@ public class VideosService {
 	public List<Videos> searchByTitle(String titulo) {
 	    return repository.findByTituloContainingIgnoreCase(titulo);
 	}
+	
+	public List<Videos> getFirstThreeVideos() {
+	    Sort sort = Sort.by("id").ascending();
+	    List<Videos> videos = repository.findAll(sort);
+	    return videos.subList(0, Math.min(3, videos.size())); 
+	}
+	
+	 public Page<Videos> getVideos(int page, int size) {
+	        Page<Videos> videosPage = repository.findAll(PageRequest.of(page, size));
+	        return videosPage.map(video -> new Videos(video.getTitulo(), video.getUrl(), video.getDescricao(), video.getCategoria()));
+	    }
 }

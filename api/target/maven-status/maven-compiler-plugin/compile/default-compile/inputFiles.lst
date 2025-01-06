@@ -1,0 +1,12 @@
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\ApiApplication.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\controller\CategoriasController.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\controller\VideosController.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\entity\Categorias.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\entity\Videos.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\repository\CategoriasRepository.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\repository\VideosRepository.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\security\CustomAuthenticationEntryPoint.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\security\MyController.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\security\SecurityConfig.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\service\CategoriasService.java
+D:\Projetos_Alura\Api_Rest\api\src\main\java\videos\back\api\service\VideosService.java

@@ -1,0 +1,12 @@
+videos\back\api\entity\Categorias.class
+videos\back\api\repository\CategoriasRepository.class
+videos\back\api\security\MyController.class
+videos\back\api\service\CategoriasService.class
+videos\back\api\service\VideosService.class
+videos\back\api\ApiApplication.class
+videos\back\api\repository\VideosRepository.class
+videos\back\api\controller\VideosController.class
+videos\back\api\security\CustomAuthenticationEntryPoint.class
+videos\back\api\security\SecurityConfig.class
+videos\back\api\controller\CategoriasController.class
+videos\back\api\entity\Videos.class

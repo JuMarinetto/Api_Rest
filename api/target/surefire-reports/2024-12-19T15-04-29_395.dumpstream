@@ -1,0 +1,5 @@
+# Created at 2024-12-19T15:04:29.663
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Projetos_Alura\Api_Rest\api\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
